@@ -1,4 +1,4 @@
-# A Short History of RAG
+# [A Short History of RAG](https://cobusgreyling.medium.com/a-short-history-of-rag-d2935a2fea29)
 
 ## イントロ
 
