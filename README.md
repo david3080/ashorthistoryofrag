@@ -1,5 +1,7 @@
 # [A Short History of RAG](https://cobusgreyling.medium.com/a-short-history-of-rag-d2935a2fea29)
 
+![RAG](./rag.jpg)
+
 ## イントロ
 
 現在、大規模言語モデルに関する最も人気のあるテーマの一つは、「検索強化生成（Retrieval Augmented Generation, RAG）」のアイデアです。RAGはいくつかの理由で重要ですが、この記事ではまず、RAGの人気が高まった原因について議論します。そして、最も基本的な形でのRAGの説明を行います。
