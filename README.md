@@ -35,3 +35,11 @@ LLMにおける創発機能には次のようなものがあります：
 
 ![In context learning](./incontextlearning.jpg)
 
+### 勾配を用いないアプローチ
+
+LLMをプログラミングする方法には二つのアプローチがあります。LLMをプログラミングする別の方法として、データをLLMにどのように提供するかという視点があります。
+
+データの提供は、勾配を用いるか勾配を用いないかのどちらかです。
+
+![LLM Programming](./llmprograming.jpg)
+
