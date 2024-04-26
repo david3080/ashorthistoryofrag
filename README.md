@@ -25,7 +25,7 @@ LLMにおける創発機能には次のようなものがあります：
 **しかし、[創発機能という概念は幻想であることが証明されました](https://www.wired.com/story/how-quickly-do-large-language-models-learn-unexpected-skills/)**
 
 ※
-(訳者追記)「[AIの「創発性」は幻影に過ぎない](https://wired.jp/article/how-quickly-do-large-language-models-learn-unexpected-skills/)」というWiredの記事も参考になります
+(日本語訳)「[AIの「創発性」は幻影に過ぎない](https://wired.jp/article/how-quickly-do-large-language-models-learn-unexpected-skills/)」
 
 最近の研究では、創発機能という考え方が幻想であるとされ、実際には、一般的にLLMが文脈を与えられたときに非常にうまく応答するという事実が、創発能力と見なされていたことがわかりました。
 
