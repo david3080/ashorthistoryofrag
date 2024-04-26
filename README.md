@@ -1,10 +1,12 @@
 # [A Short History of RAG](https://cobusgreyling.medium.com/a-short-history-of-rag-d2935a2fea29)
 
-![RAG](./rag.jpg)
+![RAG](./images/rag.jpg)
 
 ## イントロ
 
-現在、大規模言語モデルに関する最も人気のあるテーマの一つは、「検索強化生成（Retrieval Augmented Generation, RAG）」のアイデアです。RAGはいくつかの理由で重要ですが、この記事ではまず、RAGの人気が高まった原因について議論します。そして、最も基本的な形でのRAGの説明を行います。
+現在、大規模言語モデルに関する最も人気のあるテーマの一つは、「検索強化生成（Retrieval
+Augmented Generation,
+RAG）」のアイデアです。RAGはいくつかの理由で重要ですが、この記事ではまず、RAGの人気が高まった原因について議論します。そして、最も基本的な形でのRAGの説明を行います。
 
 ## なぜRAGが必要か
 
@@ -22,6 +24,9 @@ LLMにおける創発機能には次のようなものがあります：
 
 **しかし、[創発機能という概念は幻想であることが証明されました](https://www.wired.com/story/how-quickly-do-large-language-models-learn-unexpected-skills/)**
 
+※
+(訳者追記)「[AIの「創発性」は幻影に過ぎない](https://wired.jp/article/how-quickly-do-large-language-models-learn-unexpected-skills/)」というWiredの記事も参考になります
+
 最近の研究では、創発機能という考え方が幻想であるとされ、実際には、一般的にLLMが文脈を与えられたときに非常にうまく応答するという事実が、創発能力と見なされていたことがわかりました。
 
 ### 指示と文脈参照
@@ -29,11 +34,12 @@ LLMにおける創発機能には次のようなものがあります：
 推論時に指示に基づいてLLMはうまく反応します。また、プロンプトに文脈参照データが注入されたとき、LLMは非常にうまく反応することがわかっています。多くの研究によって、推論時に提供される文脈知識が、モデルがファインチューニングされたデータよりも優先されることが実証的に証明されています。
 
 ### 文脈内学習
+
 文脈内学習は、ユーザーや現在のタスクから提供される特定の文脈に基づいて、モデルがその反応を適応させて洗練する能力を指します。
 
 このプロセスにより、モデルは操作している文脈を考慮して、より関連性が高く、一貫性のある出力を生成することが可能になります。
 
-![In context learning](./incontextlearning.jpg)
+![In context learning](./images/incontextlearning.jpg)
 
 ### 勾配を用いないアプローチ
 
@@ -41,7 +47,7 @@ LLMをプログラミングする方法には二つのアプローチがあり�
 
 データの提供は、勾配を用いるか勾配を用いないかのどちらかです。
 
-![LLM Programming](./llmprograming.jpg)
+![LLM Programming](./images/llmprograming.jpg)
 
 大規模言語モデル（LLM）の訓練の文脈において、勾配ベースのアプローチと勾配フリーのアプローチの違いは、訓練過程でモデルのパラメータがどのように更新されるかにあります。
 
