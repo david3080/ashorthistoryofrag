@@ -109,16 +109,23 @@ Context information is below.
 {context_str}
 ---------------------
 
-Given the context information and not prior knowledge, \
-answer the query asking about citations over different topics.
-Please provide your answer in the form of a structured JSON format containing \
-a list of authors as the citations. Some examples are given below.
+与えられた文脈情報に基づいて、さまざまなトピックに関する引用についての質問に答えてください。引用として著者のリストを含む構造化されたJSON形式で回答を提供してください。以下にいくつかの例を示します。
 
-{few_shot_examples}
+{フューショット例}
 
-Query: {query_str}
+Query: {質問クエリ}
 
 Answer: \
 
 """
 ```
+
+## 結論
+
+大規模言語モデル（LLM）にとっての文脈の重要性は、与えられた状況やタスクに適切で、一貫性があり、関連性のある方法で言語を理解し生成する能力にあります。
+
+文脈は、LLMによる言語の解釈と生成を形作るための必要な背景情報と手がかりを提供します。
+
+全体として、文脈はLLMの指導的な枠組みとして機能し、人間のコミュニケーションの複雑さを反映する方法で言語を理解し、解釈し、生成することを可能にします。
+
+文脈をモデルに取り入れることによって、研究者や開発者は多岐にわたるアプリケーションや領域におけるLLMの能力と効果を向上させることができます。
